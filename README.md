@@ -1,4 +1,4 @@
-# 🌀 Mandelbrot Explorer & Manim Animations
+# Mandelbrot Explorer & Manim Animations
 
 A dual-purpose educational and visualization toolkit:
 - **`mandelbrot_explorer.ipynb`** — an *interactive Jupyter notebook* for exploring and zooming into the Mandelbrot set with NumPy + Matplotlib.  
@@ -6,15 +6,15 @@ A dual-purpose educational and visualization toolkit:
 
 ---
 
-## 📦 Installation
+## Installation
 
-### 1️⃣ Create a dedicated environment
+### Step 1: Create a dedicated environment
 ```bash
 conda create -n my-manim-environment python=3.11
 conda activate my-manim-environment
 ````
 
-### 2️⃣ Install Manim and dependencies
+### Step 2: Install Manim and dependencies
 
 Using conda-forge (preferred for stability):
 
@@ -22,7 +22,7 @@ Using conda-forge (preferred for stability):
 conda install -c conda-forge manim
 ```
 
-### 3️⃣ (Optional) Install additional requirements
+### Step 3 (Optional): Install additional requirements
 
 If you have a `requirements.txt` for the notebook or extra packages:
 
@@ -30,7 +30,7 @@ If you have a `requirements.txt` for the notebook or extra packages:
 pip install -r requirements.txt
 ```
 
-### 4️⃣ (macOS only) — install LaTeX for math rendering
+### Step 4 (macOS only): Install LaTeX for math rendering
 
 Manim uses LaTeX for `Tex` and `MathTex` objects:
 
@@ -39,7 +39,7 @@ Manim uses LaTeX for `Tex` and `MathTex` objects:
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 ### 1. Mandelbrot Explorer (`mandelbrot_explorer.ipynb`)
 
@@ -82,7 +82,7 @@ Each of these scripts renders a standalone mathematical animation using Manim.
 
 ---
 
-## 🎬 Rendering Animations
+## Rendering Animations
 
 Render a scene to **4K quality** (`-qk`) or **1080p preview** (`-pqh`):
 
@@ -114,7 +114,7 @@ media/videos/<script_name>/<quality>/<scene_name>.mp4
 
 ---
 
-## 🧩 Repository Structure
+## Repository Structure
 
 ```
 mandelbrot-explorer/
@@ -128,7 +128,7 @@ mandelbrot-explorer/
 
 ---
 
-## ⚙️ Notes & Tips
+## Notes & Tips
 
 * You can use `%matplotlib notebook` in Jupyter for a fully interactive Mandelbrot view.
 * To speed up Mandelbrot rendering, reduce `max_iter` or image resolution.
@@ -137,7 +137,7 @@ mandelbrot-explorer/
 
 ---
 
-## 🧭 Future Enhancements
+## Future Enhancements
 
 * Smooth (continuous) Mandelbrot coloring
 * Julia set generation

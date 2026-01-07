@@ -1,5 +1,6 @@
 from manim import *
 import numpy as np
+import matplotlib
 import matplotlib.cm as cm
 
 def mandelbrot_counts(xmin, xmax, ymin, ymax, w, h, max_iter=300, R=2.0):
